@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>sample site</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+</head>
+<body>
+    <ul class="slider">
+        <li><img src="slider/01.jpg" alt="" width="400px"></li>
+        <li><img src="slider/02.jpg" alt="" width="400px"></li>
+        <li><img src="slider/03.jpg" alt="" width="400px"></li>
+        <li><img src="slider/04.jpg" alt="" width="400px"></li>
+        <li><img src="slider/05.jpg" alt="" width="400px"></li>
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+  $('.slider').slick({
+      dots:true
+  });
+});
+    </script>
+</body>
+</html>
