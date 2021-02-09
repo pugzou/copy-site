@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>sample site</title>
@@ -7,30 +8,37 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
 </head>
+
 <body>
-    
+
     <ul class="slider wrap">
-        <li><img src="slider/01.jpg" alt="画像１" ></li>
-        <li><img src="slider/02.jpg" alt="画像２" ></li>
-        <li><img src="slider/03.jpg" alt="画像３" ></li>
-        <li><img src="slider/04.jpg" alt="画像４" ></li>
-        <li><img src="slider/05.jpg" alt="画像５" ></li>
+        <li><img src="slider/01.jpg" alt="画像１"></li>
+        <li><img src="slider/02.jpg" alt="画像２"></li>
+        <li><img src="slider/03.jpg" alt="画像３"></li>
+        <li><img src="slider/04.jpg" alt="画像４"></li>
+        <li><img src="slider/05.jpg" alt="画像５"></li>
     </ul>
     <section>
         <h2>about</h2>
-        <div class="wrap frex">
-
+        <div class="wrap flex">
+            <div class="box">
+                <img src="skill/img_home02.jpg" alt="">
+            </div>
+            <div class="box">
+                <p>sample text</p>
+            </div>
         </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script>
-        $(document).ready(function(){
-  $('.slider').slick({
-      dots:true,
-      autoplay:true
-  });
-});
+        $(document).ready(function () {
+            $('.slider').slick({
+                dots: true,
+                autoplay: true
+            });
+        });
     </script>
 </body>
+
 </html>

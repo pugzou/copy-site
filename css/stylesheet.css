@@ -10,3 +10,12 @@ img{
     max-width: 1180px;
     margin: 0 auto;
 }
+.flex{
+    display: flex;
+}
+.box{
+    width: 50%;
+}
+.box p{
+    margin-left: 20px;
+}
