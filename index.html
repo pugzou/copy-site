@@ -9,18 +9,22 @@
 </head>
 <body>
     <ul class="slider">
-        <li><img src="slider/01.jpg" alt="" width="400px"></li>
-        <li><img src="slider/02.jpg" alt="" width="400px"></li>
-        <li><img src="slider/03.jpg" alt="" width="400px"></li>
-        <li><img src="slider/04.jpg" alt="" width="400px"></li>
-        <li><img src="slider/05.jpg" alt="" width="400px"></li>
+        <li><img src="slider/01.jpg" alt="画像１" width="400px"></li>
+        <li><img src="slider/02.jpg" alt="画像２" width="400px"></li>
+        <li><img src="slider/03.jpg" alt="画像３" width="400px"></li>
+        <li><img src="slider/04.jpg" alt="画像４" width="400px"></li>
+        <li><img src="slider/05.jpg" alt="画像５" width="400px"></li>
+    </ul>
+    <ul>
+        <li><img src="skill/img_home02.jpg" alt="画像６"></li>
     </ul>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script>
         $(document).ready(function(){
   $('.slider').slick({
-      dots:true
+      dots:true,
+      autoplay:true
   });
 });
     </script>
