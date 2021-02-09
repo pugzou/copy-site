@@ -1,7 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .slider{
-    width: 500px;;
+    width: 80%;
+    max-width: 1180px;
     margin: 50px auto;
 }
+
 img{
-    margin: 0 auto;
+   width: 100%;
 }
