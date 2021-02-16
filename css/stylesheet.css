@@ -19,12 +19,12 @@ img{
 .box p{
     margin-left: 20px;
 }
-.flex-box{
+.item img{
     display: flex;
-    justify-content: center;
-    width: 50%;
-    height: 50%;
 }
-item img{
-    display: flex;
+ul.item li{
+    width: calc(100% / 3);
+}
+ul.item li:nth-of-type(2){
+    margin: 0 0.5%;
 }
