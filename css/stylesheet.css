@@ -2,29 +2,57 @@
     margin: 0;
     padding: 0;
 }
+
+ul{
+    list-style: none;
+}
+
 img{
    width: 100%;
 }
+
 .wrap{
     width: 80%;
     max-width: 1180px;
     margin: 0 auto;
 }
+
 .flex{
     display: flex;
 }
+
 .box{
     width: 50%;
 }
+
 .box p{
     margin-left: 20px;
 }
+.mt-5{
+    margin-top: 5em;
+}
+
 .item img{
     display: flex;
 }
+
 ul.item li{
     width: calc(100% / 3);
 }
+
 ul.item li:nth-of-type(2){
     margin: 0 0.5%;
+}
+.bg-image{
+    background-image: url("../skill/img_home01.jpg");
+    width: 100%;
+    min-height: 400px;
+    max-height: 660px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em 0;
+}
+.item p{
+    color: blue;
+    position: absolute;
 }
