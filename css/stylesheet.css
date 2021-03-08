@@ -56,3 +56,8 @@ ul.item li:nth-of-type(2){
     color: blue;
     position: absolute;
 }
+h1{
+    color: white;
+    background-color:black;
+    text-align: center;
+}
