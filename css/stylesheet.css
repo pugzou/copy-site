@@ -11,6 +11,12 @@ img{
    width: 100%;
 }
 
+header{
+    background: black;
+    width: 100%;
+    color: white;
+}
+
 .wrap{
     width: 80%;
     max-width: 1180px;
@@ -35,6 +41,10 @@ img{
 .item img{
     display: flex;
 }
+.section-title{
+    margin: 3em 0 1em 0;
+    font-size: 32px;
+}
 
 ul.item li{
     width: calc(100% / 3);
@@ -46,18 +56,19 @@ ul.item li:nth-of-type(2){
 .bg-image{
     background-image: url("../skill/img_home01.jpg");
     width: 100%;
-    min-height: 400px;
     max-height: 660px;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 2em 0;
+    padding: 7em 0;
 }
-.item p{
-    color: blue;
-    position: absolute;
+.coment p{
+    text-align: center;
 }
 h1{
     color: white;
     background-color:black;
+    display: inline-block;
+}
+.text-center{
     text-align: center;
 }

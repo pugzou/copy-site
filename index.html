@@ -8,10 +8,26 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
 </head>
-
+    <header>
+        <div class="wrap flex">
+            <div class="box">
+                <h1>サイトタイトル</h1>
+            </div>
+            <div class="box">
+                <nav>
+                <ul class="flex">
+                    <li>About</li>
+                    <li>Skill</li>
+                    <li>Concept</li>
+                    <li>Contact</li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 <body>
 
-    <ul class="slider wrap">
+    <ul class="slider wrap mt-5">
         <li><img src="slider/01.jpg" alt="画像１"></li>
         <li><img src="slider/02.jpg" alt="画像２"></li>
         <li><img src="slider/03.jpg" alt="画像３"></li>
@@ -19,7 +35,7 @@
         <li><img src="slider/05.jpg" alt="画像５"></li>
     </ul>
     <section>
-        <h2>about</h2>
+        <h2 class="text-center section-title">about</h2>
         <div class="wrap flex">
             <div class="box">
                 <img src="skill/img_home02.jpg" alt="">
@@ -42,15 +58,15 @@
             <li><img src="skill/img_skill06.png" alt=""></li>
         </ul>
     </div>
-    <section class="bg-image">
+    <section class="bg-image mt-5">
         <div class="wrap">
-            <div class="item">
+            <div class="coment">
                 <p>sample coment</p>
             </div>
         </div>
     </section>
     <section>
-        <div class="wrap flex">
+        <div class="wrap flex mt-5">
             <div class="box">
                 <p>sample coment2</p>
             </div>
@@ -60,7 +76,9 @@
     </section>
     <section>
         <div　class="form">
-            <h1>お問い合わせ</h1>
+            <div class="text-center mt-5">
+            <h2>お問い合わせ</h2>
+            </div>
             <form action="#" method="post">
              <dl>
                  <dt><label for="username"> お名前（必須)</label></dt>
@@ -85,5 +103,4 @@
         });
     </script>
 </body>
-
 </html>
