@@ -76,3 +76,9 @@ h1{
 .text-center{
     text-align: center;
 }
+.footer-bg{
+background-color: white;
+}
+.flex p{
+    text-align: center;
+}
