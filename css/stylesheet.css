@@ -71,18 +71,21 @@ ul.item li:nth-of-type(2){
     background-image: url("../skill/img_home01.jpg");
     width: 100%;
     max-height: 660px;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     padding: 7em 0;
 }
+
 .coment p{
     text-align: center;
 }
+
 h1{
     color: white;
     background-color:black;
     display: inline-block;
 }
+
 .text-center{
     text-align: center;
 }
@@ -98,4 +101,31 @@ h1{
     color: white;
     background-color: black;
     text-align: center;
+}
+
+@media screen and (max-width: 767px){
+    /* 携帯サイズ */
+
+    .pc-wrap{
+        display: none;
+    }
+
+    .pc-wrap li{
+        display: list-item;
+    }
+
+    .slick-next {
+        right: 20px !important;
+    }
+
+    .slick-prev {
+        left: 10px !important;
+    }
+}
+@media screen and (min-width: 1180px){
+    /* pcサイズ */
+
+    .sp-wrap{
+        display: none;
+    }
 }
