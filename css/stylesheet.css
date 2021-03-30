@@ -114,6 +114,10 @@ h1{
         display: list-item;
     }
 
+    .pc-wrap .box .fa-bars{
+        float: left;
+    }
+
     .slick-next {
         right: 20px !important;
     }
@@ -121,13 +125,7 @@ h1{
     .slick-prev {
         left: 10px !important;
     }
-    #humburger{
-        position: relative;
-        display: block;
-        width: 30px;
-        height: 25px;
-        margin: 000auto;
-    }
+
 
 }
 @media screen and (min-width: 1180px){
