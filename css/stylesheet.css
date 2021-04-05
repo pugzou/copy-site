@@ -32,6 +32,25 @@ header{
     align-items: center;
 }
 
+.header-nav{
+    background-color: black;
+    text-align: left;
+    transform: translateY(-110%);
+    transition: 0.5s;
+}
+
+.header-menu{
+}
+
+.drawer-btn{
+    position: absolute;
+    
+}
+
+.drawer-btn:checked ~ .header-nav{
+    transform: translateY(0%);
+}
+
 .wrap{
     width: 80%;
     max-width: 1180px;
