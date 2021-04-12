@@ -30,25 +30,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header-nav{
-    background-color: black;
-    text-align: left;
-    transform: translateY(-110%);
-    transition: 0.5s;
-}
-
-.header-menu{
-}
-
-.drawer-btn{
-    position: absolute;
-    
-}
-
-.drawer-btn:checked ~ .header-nav{
-    transform: translateY(0%);
+    position: relative;
 }
 
 .wrap{
@@ -175,6 +157,33 @@ h1{
         top: 0;
     }
 
+    .header-nav{
+        background-color: black;
+        text-align: left;
+        transform: translateY(-110%);
+        transition: 0.5s;
+    }
+    input{
+        position: absolute;
+        right: 60px;
+        transform: scale(5.0);
+        opacity: 0;
+        z-index: 1;
+    
+    }
+    
+    .header-menu{
+    
+    }
+    
+    .drawer-btn{
+        
+    }
+    
+    .drawer-btn:checked ~ .header-nav{
+        transform: translateY(0%);
+    }
+
 
 
 
@@ -185,6 +194,8 @@ h1{
         width: 50px;
         height: 44px;
         cursor: pointer;
+        pointer-events: auto;
+        
       }
       .btn-trigger span {
         position: absolute;
@@ -234,5 +245,11 @@ h1{
         display: none;
     }
 
+    input{
+        display: none;
+    }
 
-}
+    .header-nav{
+        display: none;
+    
+    }
