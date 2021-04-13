@@ -33,6 +33,33 @@ header{
     position: relative;
 }
 
+.header-nav{
+    background-color: black;
+    text-align: left;
+    transform: translateY(-110%);
+    transition: 0.5s;
+}
+input{
+    position: absolute;
+    right: 60px;
+    transform: scale(5.0);
+    opacity: 0;
+    z-index: 1;
+
+}
+
+.header-menu{
+
+}
+
+.drawer-btn{
+    
+}
+
+.drawer-btn:checked ~ .header-nav{
+    transform: translateY(0%);
+}
+
 .wrap{
     width: 80%;
     max-width: 1180px;
@@ -57,6 +84,7 @@ header{
 
 .box{
     width: 50%;
+
 
 }
 
@@ -133,10 +161,11 @@ h1{
     /* 0~767 */
     .pc-wrap{
         display: none;
+        a
     }
 
     .pc-wrap li{
-        display: list-item;
+        display: ;
     }
 
     .slick-next {
@@ -151,38 +180,14 @@ h1{
         position: relative;
     }
 
-    .abs{
-        position: absolute;
-        right: 0;
-        top: 0;
+    .fix{
+        position: fixed;
+        right: 20px;
+        top: 27px;
+
     }
 
-    .header-nav{
-        background-color: black;
-        text-align: left;
-        transform: translateY(-110%);
-        transition: 0.5s;
-    }
-    input{
-        position: absolute;
-        right: 60px;
-        transform: scale(5.0);
-        opacity: 0;
-        z-index: 1;
     
-    }
-    
-    .header-menu{
-    
-    }
-    
-    .drawer-btn{
-        
-    }
-    
-    .drawer-btn:checked ~ .header-nav{
-        transform: translateY(0%);
-    }
 
 
 
@@ -195,6 +200,7 @@ h1{
         height: 44px;
         cursor: pointer;
         pointer-events: auto;
+        display: inline-block;
         
       }
       .btn-trigger span {
@@ -243,13 +249,6 @@ h1{
     /* 768~1179 */
     .sp-wrap{
         display: none;
+
     }
 
-    input{
-        display: none;
-    }
-
-    .header-nav{
-        display: none;
-    
-    }
