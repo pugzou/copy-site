@@ -36,24 +36,22 @@ header{
 .header-nav{
     background-color: black;
     text-align: left;
-    transform: translateY(-110%);
     transition: 0.5s;
-}
-input{
-    position: absolute;
-    right: 60px;
-    transform: scale(5.0);
-    opacity: 0;
-    z-index: 1;
-
 }
 
 .header-menu{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: gray;
+    right: -230px;
+    height: 100vh;
+    width: 230px;
+    padding-top: 20%;
+    z-index: 99;
+    display: none;
 
-}
 
-.drawer-btn{
-    
 }
 
 .drawer-btn:checked ~ .header-nav{
@@ -84,7 +82,6 @@ input{
 
 .box{
     width: 50%;
-
 
 }
 
@@ -146,7 +143,7 @@ h1{
 .text-center h2{
     color: white;
     background-color: black;
-    width: 25%;
+    width: 15%;
     display: inline-block;
 }
 
@@ -154,6 +151,7 @@ h1{
     color: white;
     background-color: black;
     text-align: center;
+    margin-top: 5em;
 }
 
 @media screen and (max-width: 767px){
@@ -178,21 +176,14 @@ h1{
 
     .rla{
         position: relative;
+        z-index: 999;
     }
 
-    .fix{
-        position: fixed;
-        right: 20px;
-        top: 27px;
-
+    .abs{
+        position: absolute;
+        right: 0;
+        bottom: -27px;
     }
-
-    
-
-
-
-
-
 
     .btn-trigger {
         position: relative;
@@ -251,4 +242,3 @@ h1{
         display: none;
 
     }
-
