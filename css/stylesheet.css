@@ -160,11 +160,7 @@ h1{
     /* 0~767 */
     .pc-wrap{
         display: none;
-        a
-    }
-
-    .pc-wrap li{
-        display: ;
+        
     }
 
     .slick-next {
@@ -241,5 +237,4 @@ h1{
     /* 768~1179 */
     .sp-wrap{
         display: none;
-
     }
