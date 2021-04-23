@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    display: inline-block;
+    
+}
+.box{
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+    height: 300px;
+}
+
+main{
+    max-width: 1000px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#eee;
+}
+
+dt{
+    margin-top: 5px;
+    font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+
+    
+}
